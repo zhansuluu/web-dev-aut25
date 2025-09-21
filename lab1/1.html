@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me - QA Engineer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #faf7fc; 
+            color: #4b2c5e; 
+        }
+        header, footer {
+            background-color: #c8a2d4;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 8px;
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            margin: 15px 0;
+            padding: 10px;
+            background: #f1e6f8; 
+        }
+        table, th, td {
+            border: 1px solid #4b2c5e;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        th {
+            background: #e0c9ef;
+        }
+        button {
+            background: #c8a2d4;
+            color: white;
+            border: none;
+            padding: 6px 12px;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Hello! I am a QA Engineer ^ ^</h1>
+    <nav>
+        <a href="#about">About</a> |
+        <a href="#hobbies">Hobbies</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My name is <strong>Zhansulu</strong>. I work as a <em>QA Engineer</em>. 
+        I check websites and applications to make sure they work correctly and are easy to use.</p>
+    </section>
+
+    <section id="hobbies">
+        <h2>My Hobbies</h2>
+        <ul>
+            <li>Concerts, films</li>
+            <li>Drawing 🎨</li>
+            <li>Knitting 🧶</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <table>
+            <tr>
+                <th>Skill</th>
+                <th>Level</th>
+            </tr>
+            <tr>
+                <td>Manual Testing</td>
+                <td>Good</td>
+            </tr>
+            <tr>
+                <td>API Testing</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>SQL</td>
+                <td>Beginner</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <h5>you can leave here your contacts :)</h5>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="msg">Message:</label><br>
+            <textarea id="msg" name="msg" rows="4" cols="30"></textarea><br><br>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 QA Engineer</p>
+</footer>
+
+</body>
+</html>
